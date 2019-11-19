@@ -1,4 +1,25 @@
 {
   "name": "react-native-template-rokket",
-  "version": "0.0.3"
+  "version": "0.1.0",
+  "description": "React Native template for new Rokket Labs projects",
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rokket-labs/react-native-template-rokket"
+  },
+  "keywords": [
+    "react-native",
+    "template",
+    "boilerplate",
+    "rokket"
+  ],
+  "author": "Tomás Castro <tomas@rokketlabs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rokket-labs/react-native-template-rokket/issues"
+  },
+  "homepage": "https://github.com/rokket-labs/react-native-template-rokket#readme"
 }

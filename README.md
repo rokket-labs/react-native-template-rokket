@@ -15,7 +15,7 @@ This template is useful for all types of apps, as it includes the bare minimum f
 To start a new app with React Native Template Rokket, simply start a new project using React Native CLI with npx (https://facebook.github.io/react-native/docs/getting-started.html). To do this, create a new app using `rokket` as a template. Easy as pie! :cake:
 
 ```
-npx react-native init PROJECT_NAME --template rokket
+npx --ignore-existing react-native init PROJECT_NAME --template react-native-template-rokket
 ```
 
 The template will replace your project's name in all relevant parts of the app. Neat! :godmode:
