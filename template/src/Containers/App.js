@@ -3,7 +3,7 @@ import { ActivityIndicator } from 'react-native'
 import { Provider } from 'react-redux'
 import { persistStore } from 'redux-persist'
 import { PersistGate } from 'redux-persist/lib/integration/react'
-import SplashScreen from 'react-native-splash-screen'
+import RNBootSplash from 'react-native-bootsplash'
 
 import 'appSrc/Config'
 import DebugConfig from 'appSrc/Config/DebugConfig'
@@ -25,7 +25,7 @@ const persistor = persistStore(store)
  */
 const App = () => {
   useEffect(() => {
-    SplashScreen.hide()
+    RNBootSplash.hide({ duration: 250 })
   }, [])
 
   return (
