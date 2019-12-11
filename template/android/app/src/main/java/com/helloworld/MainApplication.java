@@ -1,10 +1,5 @@
 package com.helloworld;
 
-import android.os.Bundle;
-
-import com.facebook.react.ReactActivity;
-import com.zoontek.rnbootsplash.RNBootSplash;
-
 import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
@@ -49,7 +44,6 @@ public class MainApplication extends Application implements ReactApplication {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
     initializeFlipper(this); // Remove this line if you don't want Flipper enabled
-    RNBootSplash.show(R.drawable.bootsplash, MainActivity.this);
   }
 
   /**
