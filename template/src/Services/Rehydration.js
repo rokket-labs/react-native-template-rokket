@@ -5,7 +5,7 @@ import DebugConfig from 'appSrc/Config/DebugConfig'
 import ReduxPersist from 'appSrc/Config/ReduxPersist'
 
 const updateReducers = store => {
-  const reducerVersion = ReduxPersist.reducerVersion
+  const { reducerVersion } = ReduxPersist
 
   // Check to ensure latest reducer version
   AsyncStorage.getItem('reducerVersion')
@@ -16,10 +16,10 @@ const updateReducers = store => {
             name: 'PURGE',
             value: {
               'Old Version:': localVersion,
-              'New Version:': reducerVersion
+              'New Version:': reducerVersion,
             },
             preview: 'Reducer Version Change Detected',
-            important: true
+            important: true,
           })
         }
         // Purge store

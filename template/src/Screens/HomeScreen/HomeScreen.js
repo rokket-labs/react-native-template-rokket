@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, List, ListItem } from 'react-native-ui-kitten'
+import { Button, List, ListItem, Text } from 'react-native-ui-kitten'
 import { useDispatch, useSelector } from 'react-redux'
 
 import Container from 'appSrc/Components/Container'
@@ -16,20 +16,20 @@ const data = [
   { name: 'React', version: `${dependencies.react}` },
   {
     name: 'React Native',
-    version: `${dependencies['react-native']}`
+    version: `${dependencies['react-native']}`,
   },
   {
     name: 'UI Kitten',
-    version: `${dependencies['react-native-ui-kitten']}`
+    version: `${dependencies['react-native-ui-kitten']}`,
   },
   {
     name: 'React Navigation',
-    version: `${dependencies['react-navigation']}`
+    version: `${dependencies['react-navigation']}`,
   },
   {
     name: 'Redux',
-    version: `${dependencies.redux}`
-  }
+    version: `${dependencies.redux}`,
+  },
 ]
 
 const renderItem = info => {
@@ -39,7 +39,7 @@ const renderItem = info => {
 const HomeScreen = props => {
   const dispatch = useDispatch()
   const actions = {
-    getCat: () => dispatch(CatActions.catRequest())
+    getCat: () => dispatch(CatActions.catRequest()),
   }
   const url = useSelector(CatSelectors.selectAvatar)
   return (
@@ -50,9 +50,11 @@ const HomeScreen = props => {
         <Image source={{ uri: url }} style={styles.image} />
       </View>
 
-      <Button onPress={actions.getCat}>Get cat</Button>
+      <Button onPress={actions.getCat}>
+        <Text>Get cat</Text>
+      </Button>
       <Button onPress={() => props.navigation.navigate(ROUTES.Counter)}>
-        Navigation test
+        <Text>Navigation test</Text>
       </Button>
     </Container>
   )

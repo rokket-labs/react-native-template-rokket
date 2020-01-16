@@ -1,4 +1,11 @@
 module.exports = {
   root: true,
-  extends: ['@react-native-community', 'plugin:prettier/recommended']
+  extends: ['rokket-labs/react-native', 'plugin:prettier/recommended'],
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [['appSrc/*', './src/*']],
+      },
+    },
+  },
 }

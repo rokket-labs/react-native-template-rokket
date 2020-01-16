@@ -15,10 +15,7 @@ const setFetchingToFalse = raw => R.mergeRight(raw, { fetching: false })
 const ignoredFetching = R.when(hasFetching, setFetchingToFalse)
 
 // convert this JS object into an Immutable object
-const toImmutable = R.compose(
-  Immutable,
-  ignoredFetching
-)
+const toImmutable = R.compose(Immutable, ignoredFetching)
 
 // the transform interface that redux-persist is expecting
 export default {
@@ -28,5 +25,5 @@ export default {
   in: raw => {
     // console.log({ storing: raw })
     return fromImmutable(raw)
-  }
+  },
 }

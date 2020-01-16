@@ -4,5 +4,5 @@ import { name as appName } from '../../app.json'
 export default {
   // font scaling override - RN default is on
   allowTextFontScaling: true,
-  appName
+  appName,
 }

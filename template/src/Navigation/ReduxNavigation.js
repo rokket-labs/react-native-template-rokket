@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { BackHandler, Platform } from 'react-native'
 import {
   createReactNavigationReduxMiddleware,
-  createReduxContainer
+  createReduxContainer,
 } from 'react-navigation-redux-helpers'
 import { useDispatch, useSelector } from 'react-redux'
 

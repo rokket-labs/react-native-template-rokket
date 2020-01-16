@@ -6,19 +6,19 @@ const create = (baseURL = 'https://api.thecatapi.com/v1/images') => {
     baseURL,
     // here are some default headers
     headers: {
-      'Cache-Control': 'no-cache'
+      'Cache-Control': 'no-cache',
     },
     // 10 second timeout...
-    timeout: 10000
+    timeout: 10000,
   })
 
   const getCat = () => api.get('search?mime_types=jpg')
 
   return {
-    getCat
+    getCat,
   }
 }
 
 export default {
-  create
+  create,
 }

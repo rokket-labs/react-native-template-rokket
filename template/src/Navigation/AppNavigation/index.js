@@ -6,19 +6,19 @@ import HomeScreen from 'appSrc/Screens/HomeScreen'
 
 export const ROUTES = {
   Home: 'Home',
-  Counter: 'Counter'
+  Counter: 'Counter',
 }
 export const FIRST_SCREEN = ROUTES.Home
 
 const PrimaryNav = createStackNavigator(
   {
     [ROUTES.Home]: HomeScreen,
-    [ROUTES.Counter]: CounterScreen
+    [ROUTES.Counter]: CounterScreen,
   },
   {
     initialRouteName: FIRST_SCREEN,
-    headerMode: 'none'
-  }
+    headerMode: 'none',
+  },
 )
 
 export default createAppContainer(PrimaryNav)

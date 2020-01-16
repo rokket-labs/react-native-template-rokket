@@ -7,8 +7,8 @@ function navigate(routeName, params) {
   store.dispatch(
     NavigationActions.navigate({
       routeName,
-      params
-    })
+      params,
+    }),
   )
 }
 
@@ -17,10 +17,10 @@ function goBack(key) {
 }
 
 const _getCurrentRoute = when(has('index'), _obj =>
-  _getCurrentRoute(_obj.routes[_obj.index])
+  _getCurrentRoute(_obj.routes[_obj.index]),
 )
 function getCurrentRoute() {
-  const nav = store.getState().nav
+  const { nav } = store.getState()
   return _getCurrentRoute(nav)
 }
 // add other navigation functions that you need and export them
@@ -29,5 +29,5 @@ function getCurrentRoute() {
 export default {
   navigate,
   goBack,
-  getCurrentRoute
+  getCurrentRoute,
 }

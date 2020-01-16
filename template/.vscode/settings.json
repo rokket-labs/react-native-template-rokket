@@ -2,9 +2,8 @@
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "javascript.format.enable": false,
-  "eslint.autoFixOnSave": true,
-  "prettier.tabWidth": 2,
-  "prettier.arrowParens": "avoid",
-  "prettier.useTabs": false,
-  "java.configuration.updateBuildConfiguration": "automatic"
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }

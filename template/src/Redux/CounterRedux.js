@@ -4,7 +4,7 @@ import Immutable from 'seamless-immutable'
 /* ------------- Types and Action Creators ------------- */
 const { Types, Creators } = createActions({
   increase: null,
-  decrease: null
+  decrease: null,
 })
 
 export const CounterTypes = Types
@@ -13,7 +13,7 @@ export default Creators
 /* ------------- Initial State ------------- */
 
 const initState = {
-  value: 0
+  value: 0,
 }
 export const INITIAL_STATE = Immutable(initState)
 
@@ -32,5 +32,5 @@ export const decreaseReducer = state => state.update('value', dec)
 
 export const reducer = createReducer(INITIAL_STATE, {
   [Types.INCREASE]: increaseReducer,
-  [Types.DECREASE]: decreaseReducer
+  [Types.DECREASE]: decreaseReducer,
 })

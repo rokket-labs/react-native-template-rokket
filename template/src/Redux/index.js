@@ -19,7 +19,7 @@ function _persistReducer(c, r) {
 export const reducers = combineReducers({
   nav: navReducer,
   counter: counterReducer,
-  cat: catReducer
+  cat: catReducer,
 })
 
 export default () => {
@@ -32,7 +32,7 @@ export default () => {
 
   let { store, sagasManager, sagaMiddleware } = configureStore(
     finalReducers,
-    rootSaga
+    rootSaga,
   )
 
   if (module.hot) {

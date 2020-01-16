@@ -6,7 +6,7 @@ import Immutable from 'seamless-immutable'
 const { Types, Creators } = createActions({
   catRequest: null,
   catSuccess: ['avatar'],
-  catFailure: null
+  catFailure: null,
 })
 
 export const CatTypes = Types
@@ -18,7 +18,7 @@ const initState = {
   avatar: undefined,
   fetching: false,
   error: false,
-  username: undefined
+  username: undefined,
 }
 
 export const INITIAL_STATE = Immutable(initState)
@@ -26,7 +26,7 @@ export const INITIAL_STATE = Immutable(initState)
 /* ------------- Selectors ------------- */
 
 export const CatSelectors = {
-  selectAvatar: state => state.cat.avatar
+  selectAvatar: state => state.cat.avatar,
 }
 
 /* ------------- Reducers ------------- */
@@ -48,5 +48,5 @@ export const failure = state =>
 export const reducer = createReducer(INITIAL_STATE, {
   [Types.CAT_REQUEST]: request,
   [Types.CAT_SUCCESS]: success,
-  [Types.CAT_FAILURE]: failure
+  [Types.CAT_FAILURE]: failure,
 })
