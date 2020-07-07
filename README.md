@@ -26,15 +26,16 @@ To start using your app, first copy the existing `.env.example` file into a new 
 
 This template includes the following:
 
-- React Native 0.61 support (now with Hooks! :raised_hands:)
+- Full Typescript 3.8 support
+- React Native 0.62 support (now with Hooks! :raised_hands:)
 - Easy to use and understand folder structure to get you up and running as fast as possible
 - Starter example with an essential counter component and a cat-tastic component :cat:
-- [UI Kitten](https://akveo.github.io/react-native-ui-kitten/) component framework and themes
-- [React Navigation](https://reactnavigation.org/)
+- [UI Kitten](https://akveo.github.io/react-native-ui-kitten/) 5.0 component framework and themes
+- [React Navigation](https://reactnavigation.org/) 5.0
 - [Reactotron](https://github.com/infinitered/reactotron) configured for debugging (including console.tron shortcut)
 - [Jest](https://jestjs.io/) and [Enzyme](https://airbnb.io/enzyme/) for component testing
 - Redux support (with Sagas example)
-- ESLint and Prettier configured out-of-the-box
+- ESLint, TSLint and Prettier configured out-of-the-box
 - Visual Studio Code settings for Prettier and ESLint (:warning: must install VSCode extensions to use them)
 
 ## How to contribute

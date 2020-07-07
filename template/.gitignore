@@ -1,5 +1,3 @@
-.env
-
 # OSX
 #
 .DS_Store
@@ -31,6 +29,10 @@ build/
 local.properties
 *.iml
 
+# Visual Studio Code
+#
+.vscode/
+
 # node.js
 #
 node_modules/
@@ -59,3 +61,5 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+.env

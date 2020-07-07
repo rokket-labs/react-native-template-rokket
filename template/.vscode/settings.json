@@ -1,9 +1,0 @@
-{
-  "editor.formatOnSave": true,
-  "editor.tabSize": 2,
-  "javascript.format.enable": false,
-  "java.configuration.updateBuildConfiguration": "automatic",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
-}
