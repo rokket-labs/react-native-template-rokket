@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux'
 
 import Container from '../../Components/Container'
 import Header from '../../Components/Header'
-import { RootState } from '../../Containers/App'
+import { RootState } from '../../Redux'
 import { RootStackParamList } from '../../Navigation/Stacks'
 import { actions as CounterActions } from '../../Redux/CounterRedux'
 import styles from './CounterScreen.styles'

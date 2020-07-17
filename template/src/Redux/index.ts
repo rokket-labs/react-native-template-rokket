@@ -1,6 +1,7 @@
 import {
   AnyAction,
   CombinedState,
+  EnhancedStore,
   combineReducers,
   configureStore,
   getDefaultMiddleware,
@@ -77,3 +78,9 @@ export const createStore = () => {
 
   return store
 }
+
+export type RootState = ReturnType<typeof createStore> extends EnhancedStore<
+  CombinedState<infer T>
+>
+  ? T
+  : unknown

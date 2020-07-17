@@ -13,8 +13,6 @@ import RootContainer from './RootContainer'
 export const store = createStore()
 const persistor = persistStore(store)
 
-export type RootState = ReturnType<typeof store.getState>
-
 const App = () => {
   return (
     <Provider store={store}>
