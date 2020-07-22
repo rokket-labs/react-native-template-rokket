@@ -27,7 +27,7 @@ To start using your app, first copy the existing `.env.example` file into a new 
 This template includes the following:
 
 - Full Typescript 3.8 support
-- React Native 0.62 support (now with Hooks! :raised_hands:)
+- React Native 0.63 support (now with Hooks! :raised_hands:)
 - Easy to use and understand folder structure to get you up and running as fast as possible
 - Starter example with an essential counter component and a cat-tastic component :cat:
 - [UI Kitten](https://akveo.github.io/react-native-ui-kitten/) 5.0 component framework and themes
