@@ -1,4 +1,4 @@
-import { DEV_SERVER_IP } from 'react-native-dotenv'
+import { DEV_SERVER_IP } from '@env'
 import Reactotron, { asyncStorage } from 'reactotron-react-native'
 import { reactotronRedux } from 'reactotron-redux'
 import sagaPlugin from 'reactotron-redux-saga'
