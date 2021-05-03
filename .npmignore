@@ -1,1 +1,3 @@
 template/node_modules/
+template/.env
+template/ios/Pods

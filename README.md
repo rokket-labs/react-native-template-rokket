@@ -12,7 +12,7 @@ This template is useful for all types of apps, as it includes the bare minimum f
 
 :warning: This template is intended for React Native versions >= 0.60. It has not been tested with previous versions. :warning:
 
-To start a new app with React Native Template Rokket, simply start a new project using React Native CLI with npx (https://facebook.github.io/react-native/docs/getting-started.html). To do this, create a new app using `rokket` as a template. Easy as pie! :cake:
+To start a new app with React Native Template Rokket, simply start a new project using React Native CLI with npx (https://facebook.github.io/react-native/docs/getting-started.html). To do this, create a new app using `react-native-template-rokket` as a template. Easy as pie! :cake:
 
 ```
 npx --ignore-existing react-native init PROJECT_NAME --template react-native-template-rokket
@@ -26,17 +26,14 @@ To start using your app, first copy the existing `.env.example` file into a new 
 
 This template includes the following:
 
-- Full Typescript 3.8 support
-- React Native 0.63 support (now with Hooks! :raised_hands:)
+- Full Typescript 4.2 support
+- React Native 0.64 and React 17 support
 - Easy to use and understand folder structure to get you up and running as fast as possible
-- Starter example with an essential counter component and a cat-tastic component :cat:
-- [UI Kitten](https://akveo.github.io/react-native-ui-kitten/) 5.0 component framework and themes
+- Starter example with themes and [React Query](https://react-query.tanstack.com/) for GraphQL requests
 - [React Navigation](https://reactnavigation.org/) 5.0
 - [Reactotron](https://github.com/infinitered/reactotron) configured for debugging (including console.tron shortcut)
-- [Jest](https://jestjs.io/) and [Enzyme](https://airbnb.io/enzyme/) for component testing
-- Redux support (with Sagas example)
 - ESLint, TSLint and Prettier configured out-of-the-box
-- Visual Studio Code settings for Prettier and ESLint (:warning: must install VSCode extensions to use them)
+- Helpful DevTools such as Husky, LintStaged and Reactotron already set up
 
 ## How to contribute
 

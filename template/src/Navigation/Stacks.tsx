@@ -1,20 +1,28 @@
-import { createStackNavigator } from '@react-navigation/stack'
 import React from 'react'
+import { createStackNavigator } from '@react-navigation/stack'
 
-import CounterScreen from '../Screens/CounterScreen'
-import HomeScreen from '../Screens/HomeScreen'
+import HomeScreen from 'screens/homeScreen'
+import LaunchesScreen from 'screens/launchesScreen'
 
 export type RootStackParamList = {
   Home: undefined
-  Counter: undefined
+  Launches: undefined
 }
 
 const Stack = createStackNavigator<RootStackParamList>()
 
-const Stacks = () => (
-  <Stack.Navigator headerMode="none" initialRouteName="Home">
-    <Stack.Screen name="Home" component={HomeScreen} />
-    <Stack.Screen name="Counter" component={CounterScreen} />
+const Stacks: React.FC = () => (
+  <Stack.Navigator initialRouteName="Home">
+    <Stack.Screen
+      name="Home"
+      component={HomeScreen}
+      options={{ headerShown: false }}
+    />
+    <Stack.Screen
+      name="Launches"
+      component={LaunchesScreen}
+      options={{ title: 'Rocket Launches' }}
+    />
   </Stack.Navigator>
 )
 

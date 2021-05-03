@@ -1,20 +1,18 @@
-import { DEV_SERVER_IP } from '@env'
+import { LogBox } from 'react-native'
 import Reactotron, { asyncStorage } from 'reactotron-react-native'
-import { reactotronRedux } from 'reactotron-redux'
-import sagaPlugin from 'reactotron-redux-saga'
+import { DEV_SERVER_IP } from '@env'
 
 import { Tron } from '../../global'
 
 Reactotron.configure({ host: DEV_SERVER_IP }) // controls connection & communication settings
   .useReactNative({}) // add all built-in react native plugins
   .use(asyncStorage({}))
-  .use(reactotronRedux())
-  .use(sagaPlugin({}))
   .connect() // let's connect!
 
-if (Reactotron.clear) {
-  Reactotron.clear()
-}
+Reactotron.clear && Reactotron.clear()
 
-console.tron = Reactotron as Tron
+console.tron = (Reactotron as unknown) as Tron
+
+LogBox.ignoreLogs(['Setting a timer'])
+
 export default Reactotron
