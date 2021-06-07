@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-rokket",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "React Native template for new Rokket Labs projects",
   "files": [
     "template",
