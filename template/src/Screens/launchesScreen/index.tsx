@@ -10,8 +10,9 @@ import {
 import styled from '@emotion/native'
 import { useTheme } from '@emotion/react'
 
-import Container from 'components/container'
 import Launch from 'components/launch'
+
+import Container from '../../Components/Container'
 
 import { LaunchData, useRocketLaunches } from './hooks/useRocketLaunches'
 
@@ -44,7 +45,7 @@ const LaunchesScreen: React.FC = () => {
           scrollEventThrottle={16}
           data={data?.launchesPast}
           renderItem={renderLaunch}
-          keyExtractor={item => item.mission_name}
+          keyExtractor={(item) => item.mission_name}
           refreshControl={
             <RefreshControl
               refreshing={isFetching}

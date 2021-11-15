@@ -4,7 +4,7 @@ import App from './src/App'
 import { name as appName } from './app.json'
 
 if (__DEV__) {
-  require('./src/config/reactotronConfig')
+  require('./src/Config/ReactotronConfig')
   console.tron.log('Reactotron configured')
 }
 

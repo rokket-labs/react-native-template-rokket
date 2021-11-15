@@ -3,7 +3,7 @@ import { Linking } from 'react-native'
 import dayjs from 'dayjs'
 import { isEmpty } from 'ramda'
 
-import { LaunchData } from 'screens/launchesScreen/hooks/useRocketLaunches'
+import { LaunchData } from 'src/Screens/LaunchesScreen/hooks/useRocketLaunches'
 
 import {
   Card,
