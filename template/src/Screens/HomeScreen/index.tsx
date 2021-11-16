@@ -4,10 +4,9 @@ import { useTheme } from '@emotion/react'
 import { StackScreenProps } from '@react-navigation/stack'
 
 import Logo from 'assets/svg/rokket'
+import Container from 'src/Components/Container'
 import { RootStackParamList } from 'src/navigation/stacks'
 import { useAppTheme } from 'src/themes'
-
-import Container from '../../Components/Container'
 
 import { LogoContainer, ThemeDescription, ThemeToggle, Title } from './styles'
 
