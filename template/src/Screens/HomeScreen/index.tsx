@@ -34,7 +34,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
         }}
         thumbColor={Platform.OS === 'android' ? theme.primary : ''}
         value={appTheme.mode === 'dark'}
-        onValueChange={(value) => appTheme.setMode(value ? 'dark' : 'light')}
+        onValueChange={value => appTheme.setMode(value ? 'dark' : 'light')}
       />
       <Button
         title="Go to next page"

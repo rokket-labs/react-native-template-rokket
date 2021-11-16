@@ -45,7 +45,7 @@ const LaunchesScreen: React.FC = () => {
           scrollEventThrottle={16}
           data={data?.launchesPast}
           renderItem={renderLaunch}
-          keyExtractor={(item) => item.mission_name}
+          keyExtractor={item => item.mission_name}
           refreshControl={
             <RefreshControl
               refreshing={isFetching}
