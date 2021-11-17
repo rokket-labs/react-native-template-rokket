@@ -10,8 +10,8 @@ import {
 import styled from '@emotion/native'
 import { useTheme } from '@emotion/react'
 
-import Container from 'components/container'
 import Launch from 'components/launch'
+import Container from 'src/Components/Container'
 
 import { LaunchData, useRocketLaunches } from './hooks/useRocketLaunches'
 

@@ -6,7 +6,7 @@ import { useAppTheme } from 'src/themes'
 import dark from 'src/themes/dark'
 import light from 'src/themes/light'
 
-import Stacks from './stacks'
+import Stacks from './Stacks'
 
 const AppNavigation: React.FC = () => {
   const appTheme = useAppTheme()

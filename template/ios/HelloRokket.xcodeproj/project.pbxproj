@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		6F883C93414E8E38EBED7851 /* libPods-HelloRokket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF64B8F1679D35C094DAEF27 /* libPods-HelloRokket.a */; };
-		8512F5F326309B3000A74920 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8512F5F226309B3000A74920 /* BootSplash.storyboard */; };
-		A0A57C4517E7F14CA87AC944 /* libPods-HelloRokket-HelloRokketTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB6CE2800533060F9043E53 /* libPods-HelloRokket-HelloRokketTests.a */; };
+		81AB9BB82411601600AC10FF /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* BootSplash.storyboard */; };
+		8820CA0A4D1141A6F98BB4C1 /* libPods-HelloRokket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E279B67E4FAB95C8549829F7 /* libPods-HelloRokket.a */; };
+		F37156FAF5221A93792C386A /* libPods-HelloRokket-HelloRokketTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AE63C7671F6F6F68CEC26C /* libPods-HelloRokket-HelloRokketTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* HelloRokketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloRokketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* HelloRokketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloRokketTests.m; sourceTree = "<group>"; };
-		04B1E1CDFBA791453A4E6105 /* Pods-HelloRokket-HelloRokketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRokket-HelloRokketTests.release.xcconfig"; path = "Target Support Files/Pods-HelloRokket-HelloRokketTests/Pods-HelloRokket-HelloRokketTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* HelloRokket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRokket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HelloRokket/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HelloRokket/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HelloRokket/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HelloRokket/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HelloRokket/main.m; sourceTree = "<group>"; };
-		3E0FB1477F97D96164B4791A /* Pods-HelloRokket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRokket.release.xcconfig"; path = "Target Support Files/Pods-HelloRokket/Pods-HelloRokket.release.xcconfig"; sourceTree = "<group>"; };
-		485A8AFA6668A45627468FF8 /* Pods-HelloRokket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRokket.debug.xcconfig"; path = "Target Support Files/Pods-HelloRokket/Pods-HelloRokket.debug.xcconfig"; sourceTree = "<group>"; };
-		4BB6CE2800533060F9043E53 /* libPods-HelloRokket-HelloRokketTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloRokket-HelloRokketTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8512F5F226309B3000A74920 /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = HelloRokket/BootSplash.storyboard; sourceTree = "<group>"; };
-		8708329307D8F13DA7334087 /* Pods-HelloRokket-HelloRokketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRokket-HelloRokketTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloRokket-HelloRokketTests/Pods-HelloRokket-HelloRokketTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DF64B8F1679D35C094DAEF27 /* libPods-HelloRokket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloRokket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = HelloRokket/BootSplash.storyboard; sourceTree = "<group>"; };
+		94DED7B4B6E7F15F8F2B80A3 /* Pods-HelloRokket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRokket.release.xcconfig"; path = "Target Support Files/Pods-HelloRokket/Pods-HelloRokket.release.xcconfig"; sourceTree = "<group>"; };
+		9932B45624127499328FD20D /* Pods-HelloRokket-HelloRokketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRokket-HelloRokketTests.release.xcconfig"; path = "Target Support Files/Pods-HelloRokket-HelloRokketTests/Pods-HelloRokket-HelloRokketTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5AE63C7671F6F6F68CEC26C /* libPods-HelloRokket-HelloRokketTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloRokket-HelloRokketTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E279B67E4FAB95C8549829F7 /* libPods-HelloRokket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloRokket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FB48C0ECA6C87591E1399CF3 /* Pods-HelloRokket-HelloRokketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRokket-HelloRokketTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloRokket-HelloRokketTests/Pods-HelloRokket-HelloRokketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF37588AF8E68B5F3C6369C /* Pods-HelloRokket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRokket.debug.xcconfig"; path = "Target Support Files/Pods-HelloRokket/Pods-HelloRokket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A57C4517E7F14CA87AC944 /* libPods-HelloRokket-HelloRokketTests.a in Frameworks */,
+				F37156FAF5221A93792C386A /* libPods-HelloRokket-HelloRokketTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F883C93414E8E38EBED7851 /* libPods-HelloRokket.a in Frameworks */,
+				8820CA0A4D1141A6F98BB4C1 /* libPods-HelloRokket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,35 +86,36 @@
 		13B07FAE1A68108700A75B9A /* HelloRokket */ = {
 			isa = PBXGroup;
 			children = (
-				8512F5F226309B3000A74920 /* BootSplash.storyboard */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* BootSplash.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = HelloRokket;
+			sourceTree = "<group>";
+		};
+		19A8D5B6E3F19114B70CCAB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFF37588AF8E68B5F3C6369C /* Pods-HelloRokket.debug.xcconfig */,
+				94DED7B4B6E7F15F8F2B80A3 /* Pods-HelloRokket.release.xcconfig */,
+				FB48C0ECA6C87591E1399CF3 /* Pods-HelloRokket-HelloRokketTests.debug.xcconfig */,
+				9932B45624127499328FD20D /* Pods-HelloRokket-HelloRokketTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				DF64B8F1679D35C094DAEF27 /* libPods-HelloRokket.a */,
-				4BB6CE2800533060F9043E53 /* libPods-HelloRokket-HelloRokketTests.a */,
+				E279B67E4FAB95C8549829F7 /* libPods-HelloRokket.a */,
+				B5AE63C7671F6F6F68CEC26C /* libPods-HelloRokket-HelloRokketTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2E70028575409FFAE4298712 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				485A8AFA6668A45627468FF8 /* Pods-HelloRokket.debug.xcconfig */,
-				3E0FB1477F97D96164B4791A /* Pods-HelloRokket.release.xcconfig */,
-				8708329307D8F13DA7334087 /* Pods-HelloRokket-HelloRokketTests.debug.xcconfig */,
-				04B1E1CDFBA791453A4E6105 /* Pods-HelloRokket-HelloRokketTests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -132,7 +133,7 @@
 				00E356EF1AD99517003FC87E /* HelloRokketTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				2E70028575409FFAE4298712 /* Pods */,
+				19A8D5B6E3F19114B70CCAB4 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -155,11 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HelloRokketTests" */;
 			buildPhases = (
-				4A2213C01CB010A0594A9BF8 /* [CP] Check Pods Manifest.lock */,
+				971C7BCBFFC7D54886D1A866 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				A473BB2EEA0AE339535FFDAC /* [CP] Copy Pods Resources */,
+				55F8AA60EE08F95E30F5A4EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,13 +176,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HelloRokket" */;
 			buildPhases = (
-				C5C96945CE6EB1D8D32681A9 /* [CP] Check Pods Manifest.lock */,
+				219E55AD61B283FDCB02A2DE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				E9409466E1D0222929597EC3 /* [CP] Copy Pods Resources */,
+				87070F45242A22DD7B783BC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,7 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8512F5F326309B3000A74920 /* BootSplash.storyboard in Resources */,
+				81AB9BB82411601600AC10FF /* BootSplash.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,46 +263,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		4A2213C01CB010A0594A9BF8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HelloRokket-HelloRokketTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A473BB2EEA0AE339535FFDAC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelloRokket-HelloRokketTests/Pods-HelloRokket-HelloRokketTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelloRokket-HelloRokketTests/Pods-HelloRokket-HelloRokketTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloRokket-HelloRokketTests/Pods-HelloRokket-HelloRokketTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C5C96945CE6EB1D8D32681A9 /* [CP] Check Pods Manifest.lock */ = {
+		219E55AD61B283FDCB02A2DE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,7 +285,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E9409466E1D0222929597EC3 /* [CP] Copy Pods Resources */ = {
+		55F8AA60EE08F95E30F5A4EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloRokket-HelloRokketTests/Pods-HelloRokket-HelloRokketTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloRokket-HelloRokketTests/Pods-HelloRokket-HelloRokketTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloRokket-HelloRokketTests/Pods-HelloRokket-HelloRokketTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87070F45242A22DD7B783BC4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,6 +317,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloRokket/Pods-HelloRokket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971C7BCBFFC7D54886D1A866 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloRokket-HelloRokketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -392,7 +393,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8708329307D8F13DA7334087 /* Pods-HelloRokket-HelloRokketTests.debug.xcconfig */;
+			baseConfigurationReference = FB48C0ECA6C87591E1399CF3 /* Pods-HelloRokket-HelloRokketTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -400,7 +401,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = HelloRokketTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,12 +420,12 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04B1E1CDFBA791453A4E6105 /* Pods-HelloRokket-HelloRokketTests.release.xcconfig */;
+			baseConfigurationReference = 9932B45624127499328FD20D /* Pods-HelloRokket-HelloRokketTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = HelloRokketTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,12 +444,11 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 485A8AFA6668A45627468FF8 /* Pods-HelloRokket.debug.xcconfig */;
+			baseConfigurationReference = FFF37588AF8E68B5F3C6369C /* Pods-HelloRokket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 57KMT8SLWX;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HelloRokket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,12 +470,11 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E0FB1477F97D96164B4791A /* Pods-HelloRokket.release.xcconfig */;
+			baseConfigurationReference = 94DED7B4B6E7F15F8F2B80A3 /* Pods-HelloRokket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 57KMT8SLWX;
 				INFOPLIST_FILE = HelloRokket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,7 +525,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -542,12 +541,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
 				);
 				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
@@ -591,7 +591,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -600,12 +600,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
 				);
 				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",

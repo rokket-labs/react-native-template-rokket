@@ -1,8 +1,8 @@
 import React from 'react'
 import { createStackNavigator } from '@react-navigation/stack'
 
-import HomeScreen from 'screens/homeScreen'
-import LaunchesScreen from 'screens/launchesScreen'
+import HomeScreen from 'screens/HomeScreen'
+import LaunchesScreen from 'src/Screens/LaunchesScreen'
 
 export type RootStackParamList = {
   Home: undefined

@@ -3,7 +3,7 @@ import { QueryClient, QueryClientProvider } from 'react-query'
 
 import 'react-native-gesture-handler'
 
-import AppNavigation from './navigation'
+import AppNavigation from './Navigation'
 import ThemeManager from './themes'
 
 const queryClient = new QueryClient()
